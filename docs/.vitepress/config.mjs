@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Documentación Apoderados",
   description: "Liceo Experimental Umag",
+  base: '/leumag-apoderado-doc/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
